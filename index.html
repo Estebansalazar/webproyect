@@ -145,23 +145,25 @@
 								tu negocio, de forma gratuita y sin compromismos.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="enviar.php">
 										<div class="fields">
 											<div class="field half">
-												<label for="name">Nombre</label>
-												<input type="text" name="name" id="name" />
+												<label for="name">Nombre *</label>
+												<input type="text" name="nombre" id="name" required/>
 											</div>
 											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<label for="email">Email *</label>
+												<input type="text" name="correo" id="email" required/>
 											</div>
 											<div class="field">
-												<label for="message">Mensaje</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<label for="message" >Teléfono *</label>
+												<input type="text" name="telefono" id="telefono" required/>
+												<label for="message" class="mensaje3">Mensaje</label>
+												<textarea name="mensaje" id="message" rows="5"></textarea>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Enviar</a></li>
+											<input type="submit" value="Enviar" id="btnSend">
 										</ul>
 									</form>
 								</section>
