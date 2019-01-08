@@ -10,13 +10,13 @@ $mensaje = $_POST['mensaje'];
 $destinatario = "esteban.salazar.p@gmail.com";
 $asunto = "Contacto desde nuestra web";
 
-$mensaje2 = "De: $nombre \n";
-$mensaje2 .= "Correo: $correo \n";
-$mensaje2 .= "Telefono: $telefono \n";
-$mensaje2 .= "Mensaje: $mensaje";
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Mensaje: $mensaje";
 
 // Enviando Mensaje
-mail($destinatario, $asunto, $mensaje2);
+mail($destinatario, $asunto, $carta);
 header('Location:mensaje_envio.html');
 
 ?>
