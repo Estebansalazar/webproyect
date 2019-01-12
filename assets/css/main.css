@@ -2815,6 +2815,12 @@ input, select, textarea {
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
 				}
+				.logolean{
+					width: 50%;
+					height: auto;
+					padding-bottom: 30px;
+				}
+			
 
 /* Menu */
 
@@ -2846,6 +2852,9 @@ input, select, textarea {
 				margin: 0.5em 0 0 0;
 				padding-left: 0;
 			}
+			.logolean{
+				width: 70%;
+			}	
 
 		}
 
